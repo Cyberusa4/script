@@ -1,0 +1,23 @@
+{
+    "name": "vironeer/addons",
+    "description": "Vironeer script addons",
+    "type": "library",
+    "require": {
+        "illuminate/support": "8.x-dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.5.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Vironeer\\Addons\\": "src/",
+            "Vironeer\\Addons\\App\\": "src/app/"
+        }
+    },
+    "authors": [{
+        "name": "Vironeer Limited",
+        "email": "addons@vironeer.com"
+    }],
+    "minimum-stability": "beta"
+}
